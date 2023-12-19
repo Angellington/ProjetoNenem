@@ -61,6 +61,8 @@ footer {
         border-radius: 25px;
 
         user-select: none;
+
+
         
     }
     div.card:hover {
@@ -212,21 +214,9 @@ div > a > p.percentual {
     z-index: 1;
 
     bottom: 31px;
-    left: 231px;
+    left: 150px;
 }
-div > p.percentual {
-    color: rgba(0, 0, 0, 0.26);
-    font-size: 65px;
-    font-family: monospace;
 
-
-    font-weight: bold;
-    position: absolute;
-    z-index: 1;
-
-    bottom: 31px;
-    left: 231px;
-}
 
 .coluna-container {
     display: flex;
