@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border: 2px solid black;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 0px;
+}
+
+main.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    width: 40vh;
+    margin: 10px;
+    border: none;
+ 
+}
+
+footer {
+    border: 1.5px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 433px;
+}
+/* ================CARDS INDIVIDUAIS================================= */
+    /* Card Geral */
+
+    div.card {
+        line-height: 20px;
+        position: relative;
+        margin: 20px auto;
+
+        max-height: 200px;
+        max-width: 350px;
+
+        border: none;
+        border-radius: 25px;
+        
+    }
+    div.card:hover {
+        border: rgb(107, 107, 107) solid 3px;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0);
+        transition: 0.1s;
+      }
+
+
+
+                           /* Card de Português */
+        #port {
+         background-color: #34ac626b;
+        background: linear-gradient(to right, #76bcd6ce, #89dcfab9 );
+        box-shadow: #D5F1FB 2px 1px 17px;
+        user-select: none;}
+                          /* Card de Literatura */
+        #lit {
+        background-color: #34ac626b;
+        background: linear-gradient(to right, #68fa7ec5, #a8e0b1bd ); }
+                        /* Card de IngLês */
+        #ing
+         {
+            background-color: #34ac626b;
+            background: linear-gradient(to right, #a890ffcb 30%, #8699e4b6 70% );
+            box-shadow: #D5F1FB 2px 1px 17px;
+          }
+                         /* Espanhol */
+        #esp
+         {
+            background-color: #34ac626b;
+            background: linear-gradient(to right, #fdd75acb 30%, #e4c386b6 70% );
+            box-shadow: #D5F1FB 2px 1px 17px;
+          }
+
+                        /* História */
+          #hist
+         {
+            background-color: #34ac626b;
+            background: linear-gradient(to right, #ffbc90cb 30%, #e4ac86b6 70% );
+            box-shadow: #D5F1FB 2px 1px 17px;
+          }
+                        /* Geografia */
+          #geo
+          {
+             background-color: #34ac626b;
+             background: linear-gradient(to bottom, #d4829acb, #cca55db6);
+             box-shadow: #D5F1FB 2px 1px 17px;
+           }
+                        /* Sociologia */
+           .card#socio
+          {
+             background-color: #34ac626b;
+             background: linear-gradient(to bottom, #d48282cb, #cc5d5db6);
+             box-shadow: #D5F1FB 2px 1px 17px;
+           }
+
+                        /*Filosofia */
+           .card#filo
+           {
+              background-color: #34ac626b;
+              background: linear-gradient(to bottom, #82c1d4cb, #da94ebb6);
+              box-shadow: #D5F1FB 2px 1px 17px;
+            }
+
+                        /*Artes*/
+            .card#arts
+           {
+              background-color: #34ac626b;
+              background: linear-gradient(to bottom, #dceff5cb, #f7f7f7b6);
+              box-shadow: #D5F1FB 2px 1px 17px;
+            }
+
+                        /*Biologia*/
+            #bio
+            {
+               background-color: #34ac626b;
+               background: linear-gradient(to bottom, #abebffcb, #9079f3b6);
+               box-shadow: #D5F1FB 2px 1px 17px;
+             }
+
+                        /*Física*/
+             #fi
+            {
+               background-color: #34ac626b;
+               background: linear-gradient(to bottom, rgba(212, 175, 100, 0.796), #f0ee7eb6);
+               box-shadow: #D5F1FB 2px 1px 17px;
+             }
+             
+                        /*Química*/
+             #qui
+            {
+               background-color: #34ac626b;
+               background: linear-gradient(to bottom, rgba(56, 215, 255, 0.796), #7ef0c4b6);
+               box-shadow: #D5F1FB 2px 1px 17px;
+             }
+
+                        /*Matemática*/
+             #mat, .pallete#mat
+             {
+                background-color: #34ac626b;
+                 background: linear-gradient(to right, #76bcd6ce, #336eecb9 );
+                  box-shadow: #D5F1FB 2px 1px 17px;
+                  cursor: pointer;;}
+            
+/*===========================================================================*/
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 6px black;
+}
+
+h1.disciplina {
+    color: white;
+    font-family: sans-serif;
+    padding: 0px;
+    text-align: center;
+    padding-top: 9px;
+    padding-left: 42px;
+    transform: translateX(-33px);}
+
+p.descricao {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+
+    text-shadow: 1px 1px 10px black;
+
+    z-index: 2;
+
+    position: relative;
+
+    text-align: justify;
+    margin: 16px;
+    padding-left: 2px;
+    padding-right: 2px;}
+
+div > a > p.percentual {
+    color: rgba(0, 0, 0, 0.26);
+    font-size: 65px;
+    font-family: monospace;
+
+
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+
+    bottom: 31px;
+    left: 231px;
+}
+div > p.percentual {
+    color: rgba(0, 0, 0, 0.26);
+    font-size: 65px;
+    font-family: monospace;
+
+
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+
+    bottom: 31px;
+    left: 231px;
+}
+
+.coluna-container {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scrollbar-width: none;
+    border: none;
+}
+.coluna-container::-webkit-scrollbar {
+    display: none;
+}
+
+.coluna {
+    flex: 1;
+    padding: 10px;
+}

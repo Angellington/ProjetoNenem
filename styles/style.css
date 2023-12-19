@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Lilita One;
+    src: url(../fontes/LilitaOne-Regular.ttf);
+}
+
+
+    /* Tabela Geral */
+    header {
+        background-image: linear-gradient(to bottom, #94c7da, #8bd8f1);
+        margin: 0px;
+        padding: 15px;
+        width: auto;
+        height: 170px;
+        border: 2px solid black;
+        
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    header > h1 {
+
+        color: white;
+        font-size: 4.5em;
+        text-shadow: 3px 3px 3px black;
+        text-align: center;
+    }
+        
+    
+
+
+
+
+
+    body {
+        background-color: rgb(93, 153, 180);
+    }
+
+    section {
+        background-image: url(../imagens/1310246-Otori-EmuProject-Sekai-Colorful-Stage-Feat.-Hatsune.png);
+        background-repeat: no-repeat;
+     
+        
+    }
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*======================================================================================================================================================================*/
+    /* Card Geral */
+    div.card {
+        background-color: #34ac62b4;
+        background: linear-gradient(to right, #00ff62b4, #e7fff0b4 );
+        box-shadow: rgb(161, 231, 143) 2px 1px 17px;
+        border: none;
+
+        position: relative;
+
+        border-radius: 15px;
+        
+        height: 150px;
+        width: 350px; 
+        text-align: left;
+
+        margin: 30px;   }
+
+
+
+                           /* Card de Português */
+        #port {
+         background-color: #34ac626b;
+        background: linear-gradient(to right, #76bcd6ce, #89dcfab9 );
+        box-shadow: #D5F1FB 2px 1px 17px;}
+
+                          /* Card de Literatura */
+        #lit {
+        background-color: #34ac626b;
+        background: linear-gradient(to right, #68fa7ec5, #a8e0b1bd ); }
+
+                        /* Card de IngLês */
+        #ing
+         {
+            background-color: #34ac626b;
+            background: linear-gradient(to right, #a890ffcb 30%, #8699e4b6 70% );
+            box-shadow: #D5F1FB 2px 1px 17px;
+          }
+                         /* Espanhol */
+        #esp
+         {
+            background-color: #34ac626b;
+            background: linear-gradient(to right, #fdd75acb 30%, #e4c386b6 70% );
+            box-shadow: #D5F1FB 2px 1px 17px;
+          }
+
+                        /* História */
+          #hist
+         {
+            background-color: #34ac626b;
+            background: linear-gradient(to right, #ffbc90cb 30%, #e4ac86b6 70% );
+            box-shadow: #D5F1FB 2px 1px 17px;
+          }
+                        /* Geografia */
+          #geo
+          {
+             background-color: #34ac626b;
+             background: linear-gradient(to bottom, #d4829acb, #cca55db6);
+             box-shadow: #D5F1FB 2px 1px 17px;
+           }
+                        /* Sociologia */
+           .card#socio
+          {
+             background-color: #34ac626b;
+             background: linear-gradient(to bottom, #d48282cb, #cc5d5db6);
+             box-shadow: #D5F1FB 2px 1px 17px;
+           }
+
+                        /*Filosofia */
+           .card#filo
+           {
+              background-color: #34ac626b;
+              background: linear-gradient(to bottom, #82c1d4cb, #da94ebb6);
+              box-shadow: #D5F1FB 2px 1px 17px;
+            }
+
+                        /*Artes*/
+            .card#arts
+           {
+              background-color: #34ac626b;
+              background: linear-gradient(to bottom, #dceff5cb, #f7f7f7b6);
+              box-shadow: #D5F1FB 2px 1px 17px;
+            }
+
+                        /*Biologia*/
+            #bio
+            {
+               background-color: #34ac626b;
+               background: linear-gradient(to bottom, #abebffcb, #9079f3b6);
+               box-shadow: #D5F1FB 2px 1px 17px;
+             }
+
+                        /*Física*/
+             #fi
+            {
+               background-color: #34ac626b;
+               background: linear-gradient(to bottom, rgba(212, 175, 100, 0.796), #f0ee7eb6);
+               box-shadow: #D5F1FB 2px 1px 17px;
+             }
+             
+                        /*Química*/
+             #qui
+            {
+               background-color: #34ac626b;
+               background: linear-gradient(to bottom, rgba(56, 215, 255, 0.796), #7ef0c4b6);
+               box-shadow: #D5F1FB 2px 1px 17px;
+             }
+
+                        /*Matemática*/
+             #mat, .pallete#mat
+             {
+                background-color: #34ac626b;
+                 background: linear-gradient(to right, #76bcd6ce, #336eecb9 );
+                  box-shadow: #D5F1FB 2px 1px 17px;}
+            
+/*===========================================================================*/
+             
+
+        
+
+        
+
+
+
+
+
+
+    
+    h1.disciplina {
+        color: white;
+        font-family: sans-serif;
+        padding: 0px;
+        margin: -11px;
+        padding-top: 9px;
+        padding-left: 42px;}
+
+    p.descricao {
+        font-family: sans-serif;
+        color: white;
+
+        text-shadow: 1px 1px 10px black;
+
+        z-index: 2;
+
+        position: relative;
+
+        text-align: justify;
+        margin: 16px;
+        padding-left: 2px;
+        padding-right: 2px;}
+
+    div > p.percentual {
+        color: rgba(0, 0, 0, 0.26);
+        font-size: 65px;
+        font-family: monospace;
+
+
+        font-weight: bold;
+        position: absolute;
+        z-index: 1;
+    
+        bottom: -61px;
+        left: 158px;
+    }
+
+
+
+
+
+    footer {
+        background-color: #5B90A4;
+        padding: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: 185px;
+        border: 5px solid  #4A5357;
+        margin-left: -8px;
+        margin-right: -8px;
+        
+    }
+    
+
+    .coluna-container {
+        display: flex;
+        justify-content: space-between;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .coluna-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .coluna {
+        flex: 1;
+        padding: 10px;
+    }
